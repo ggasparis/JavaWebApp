@@ -1,0 +1,1 @@
+insert into administrator (user_id, can_approve, can_alter_rights, can_alter_roles) values (251, 1, 1, 1);

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="NewPersistenceUnit">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <class>gr.ntua.ece.project.entities.Administrator</class>
+        <class>gr.ntua.ece.project.entities.Category</class>
+        <class>gr.ntua.ece.project.entities.Event</class>
+        <class>gr.ntua.ece.project.entities.EventPhotos</class>
+        <class>gr.ntua.ece.project.entities.Parent</class>
+        <class>gr.ntua.ece.project.entities.Provider</class>
+        <class>gr.ntua.ece.project.entities.Report</class>
+        <class>gr.ntua.ece.project.entities.Role</class>
+        <class>gr.ntua.ece.project.entities.Ticket</class>
+        <class>gr.ntua.ece.project.entities.User</class>
+        <properties>
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/play"/>
+            <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
+            <property name="hibernate.connection.username" value="root"/>
+            <property name="hibernate.connection.password" value="Csc@nfr56!!"/>
+            <property name="hibernate.archive.autodetection" value="class"/>
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hbm2ddl.auto" value="update"/>
+        </properties>
+    </persistence-unit>
+</persistence>

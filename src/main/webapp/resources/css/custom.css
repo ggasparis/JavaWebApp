@@ -1,0 +1,11 @@
+.carousel-control-prev {
+	width: 5%;
+	left: -80px;
+	opacity: .9;
+}
+
+.carousel-control-next {
+	width: 5%;
+	left: 1090px;
+	opacity: .9;
+}

@@ -1,0 +1,139 @@
+
+#profile-image1 {
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    border: 2px solid;
+}
+.profile-image {
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    border: 2px solid;
+}
+
+#apimage {
+    cursor: pointer;
+    width: 320px;
+    height: 320px;
+    border: 2px solid;
+}
+
+
+.panel {
+    background: rgba(73, 7, 28, 0.05);
+    border: black;
+    border-radius: 15px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    font-size: small;
+
+}
+.panel-heading {
+    padding: 5px 10px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    font-size: inherit;
+}
+
+.panel-body {
+    padding: 15px;
+    font-size: inherit;
+}
+
+.panel-default {
+    border-color: #ddd;
+    font-size: small;
+
+}
+
+.panel-default > .panel-heading {
+    color: white;
+    background-color: rgb(4, 37, 82);
+    border-color: #ddd;
+}
+
+.panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #ddd;
+}
+
+.panel-default > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: #ddd;
+}
+
+.myWidth {
+    width: 45%;
+}
+.content-wrapper {
+    margin-top: 40px;
+    min-height:800px;
+    padding-bottom:90px;
+}
+#wrapper {
+    width: 100%;
+    overflow: hidden;
+    /*min-height: 100%;*/
+    /*height: auto !important;*/
+    /*height: 100%;*/
+}
+#first {
+    width: 50%;
+    float:right;
+}
+#second {
+    width: 50%;
+    float: left;
+}
+
+#wrapper1 {
+    width: 100%;
+    overflow: hidden;
+}
+#first1 {
+    width: 50%;
+    float:right;
+}
+#second1 {
+    width: 50%;
+    float: left;
+}
+
+
+#wrapper2 {
+    width: 100%;
+    overflow: hidden;
+}
+#first2 {
+    width: 50%;
+    float:right;
+}
+#second2 {
+    width: 50%;
+    float: left;
+}
+
+.mysubmit{
+    color: #fff;
+    text-shadow: 0 1px rgba(0,0,0,0.1);
+    background-color: #49071c;
+    padding: 17px;
+    font-size: 14px;
+    border-radius: 15%;
+}
+
+
+.carousel-inner .carousel-item-right.active,
+.carousel-inner .carousel-item-next {
+    transform: translateX(33.33%);
+}
+
+.carousel-inner .carousel-item-left.active,
+.carousel-inner .carousel-item-prev {
+    transform: translateX(-33.33%);
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{
+    transform: translateX(0);
+}
